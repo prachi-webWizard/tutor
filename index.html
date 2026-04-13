@@ -18,7 +18,7 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="icon" href="./images/favicon.png" />
-    <title>Welcome To Tutor</title>
+    <title data-i18n="welcometotutor">Welcome To Tutor</title>
   </head>
   <body>
     <nav class="navbar" role="navigation" aria-label="Main Navigation">
@@ -28,12 +28,12 @@
         </a>
         <div class="main-menu-items">
           <ul class="main-menu-list">
-            <li><a href="/">Home</a></li>
-            <li><a href="#chapters">Chapters</a></li>
-            <li><a href="#summary">Summary</a></li>
-            <li><a href="#takeaways">Takeaways</a></li>
-            <li><a href="#author">Author</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="/" data-i18n="home">Home</a></li>
+              <li><a href="#chapters" data-i18n="chapters">Chapters</a></li>
+              <li><a href="#summary" data-i18n="summary">Summary</a></li>
+              <li><a href="#takeaways" data-i18n="takeaways">Takeaways</a></li>
+              <li><a href="#author" data-i18n="author">Author</a></li>
+              <li><a href="contact.html" data-i18n="contact">Contact</a></li>
             <li>
               <a href="facebook.com"><i class="fa-brands fa-facebook" aria-label="Follow Us On Facebook"></i></a>
             </li>
@@ -52,12 +52,12 @@
           <!-- Mobile Menu Item -->
           <div class="mobile-menu-items" id="mobile-menu-items">
             <ul class="mobile-menu-list">
-              <li><a href="/">Home</a></li>
-              <li><a href="#chapters">Chapters</a></li>
-              <li><a href="#summary">Summary</a></li>
-              <li><a href="#takeaways">Takeaways</a></li>
-              <li><a href="#author">Author</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="/" data-i18n="home">Home</a></li>
+              <li><a href="#chapters" data-i18n="chapters">Chapters</a></li>
+              <li><a href="#summary" data-i18n="summary">Summary</a></li>
+              <li><a href="#takeaways" data-i18n="takeaways">Takeaways</a></li>
+              <li><a href="#author" data-i18n="author">Author</a></li>
+              <li><a href="contact.html" data-i18n="contact">Contact</a></li>
               <li>
                 <a href="facebook.com"><i class="fa-brands fa-facebook" aria-label="Follow Us On Facebook"></i></a>
               </li>
@@ -74,12 +74,12 @@
     <header class="hero">
       <div class="container hero-flex">
         <div class="hero-content">
-          <h1>Create Your Own Video Courses</h1>
-          <p>
+          <h1 data-i18n="title">Create Your Own Video Courses</h1>
+          <p data-i18n="desc">
             Dive deep into the world of creativity and learn to craft stunning
             videos that captivate your audience.
           </p>
-          <a href="#" class="btn">$29 Get Course</a>
+          <a href="#" class="btn" data-i18n="getCourse">$29 Get Course</a>
         </div>
         <img src="images/header-course.png" alt="hero" />
       </div>
@@ -500,5 +500,6 @@
           </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/i18n.js"></script>
   </body>
 </html>
